@@ -18,11 +18,11 @@ const App = () => {
   };
 
   const userProfile = {
-    name: 'DitzDev',
-    username: 'ditz.ofc',
-    bio: 'Full-Stack Developer | Learn Hard, Build, And Sharing ✨',
+    name: 'Yth. Zymźz —',
+    username: 'Zymz_',
+    bio: 'Jangan Lupa Bersyukur',
     avatar: profile,
-    tags: ['React', 'React Native', 'Vite', 'NextJS', 'TailwindCSS', 'Django', 'Laravel', 'TypeScript', 'JavaScript', 'PHP', 'Java', 'Kotlin', 'Go-Lang', 'Python', 'C/C++', 'Rust']
+    tags: ['Panel Pterodacyl','VPS','Bot Wa','Domain','Akun APK Premium']
   };
 
   if (!mounted) return null;
