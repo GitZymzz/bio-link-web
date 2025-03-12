@@ -7,30 +7,51 @@ const LinkSection: React.FC = () => {
   const links: SocialLink[] = [
     {
       id: '1',
-      platform: 'GitHub',
-      url: 'https://github.com/GitZymzz',
-      icon: 'github',
-      color: '#333'
+      platform: 'WhatsApp',
+      url: 'https://wa.me/6283853787611',
+      icon: 'whatsapp',
+      color: '#66FF66'
     },
     {
       id: '2',
-      platform: 'YouTube',
-      url: 'https://youtube.com/',
-      icon: 'youtube',
-      color: '#FF0000'
+      platform: 'WhatsApp',
+      url: 'https://chat.whatsapp.com/Jv5SIEQV3jNGpIvWy2lmSC',
+      icon: 'whatsapp',
+      color: '#66FF66'
     },
     {
       id: '3',
-      platform: 'Instagram',
-      url: 'https://instagram.com/zymzz_',
-      icon: 'instagram',
-      color: '#E1306C'
+      platform: 'Tiktok',
+      url: 'https://tiktok.com/@camzym7',
+      icon: 'tiktok',
+      color: '#000000'
     },
     {
       id: '4',
-      platform: 'TikTok',
-      url: 'https://tiktok.com/@camzym7',
-      icon: 'tiktok',
+      platform: 'Instagram',
+      url: 'https://instagram.com/zymzz_',
+      icon: 'instagram',
+      color: '#FF0000'
+    },
+    {
+      id: '5',
+      platform: 'Telegram',
+      url: 'https://t.me/camzym',
+      icon: 'telegram',
+      color: '#23FFFD'
+    },
+    {
+      id: '6',
+      platform: 'LinKedin',
+      url: 'https://linkedin.com/zymzz7',
+      icon: 'linkedin',
+      color: '#1220B0'
+    },
+    {
+      id: '7',
+      platform: 'Githun',
+      url: 'https://github.com/GitZymzz',
+      icon: 'github',
       color: '#000000'
     }
   ];
