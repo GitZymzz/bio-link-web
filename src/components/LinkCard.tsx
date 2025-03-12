@@ -11,16 +11,22 @@ interface LinkCardProps {
 const LinkCard: React.FC<LinkCardProps> = ({ link, index }) => {
   const getIcon = (iconName: string) => {
     switch (iconName) {
-      case 'github':
-        return <FaGithub />;
-      case 'youtube':
-        return <FaYoutube />;
-      case 'instagram':
-        return <FaInstagram />;
+      case 'whatsapp':
+        return <FaWhatsApp />;
+      case 'whatsapp':
+        return <FaWhatsApp />;
       case 'tiktok':
         return <FaTiktok />;
-      default:
-        return <FaTiktok />;
+      case 'instagram':
+        return <FaInstagram />;
+      case 'telegram':
+        return <FaTelegram />;
+      case 'github':
+        return <FaGithub />;
+      case 'linkedin':
+        return <FaLinkedin />;
+      default: 
+        return <FaLinKedin />;
     }
   };
 
