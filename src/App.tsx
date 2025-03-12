@@ -18,11 +18,11 @@ const App = () => {
   };
 
   const userProfile = {
-    name: 'Yth. Zymźz —',
+    name: 'Zymzz',
     username: 'Zymz_',
     bio: 'Jangan Lupa Bersyukur',
     avatar: profile,
-    tags: ['Panel Pterodacyl','VPS','Bot Wa','Domain','Akun APK Premium']
+    tags: ['Gaming','Musik','Draw','Editing','Desain','Anime','Donghua','Menghayal🗿']
   };
 
   if (!mounted) return null;
@@ -59,7 +59,7 @@ const App = () => {
         <LinkSection />
 
         <footer className="footer">
-          <p>© {new Date().getFullYear()} {userProfile.name} - Made with <span className="heart">❤️</span></p>
+          <p>© {new Date().getFullYear()} {userProfile.name} - Made with <span className="heart">⚡️</span></p>
         </footer>
       </div>
     </div>
